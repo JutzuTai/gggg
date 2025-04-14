@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Design.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Seprasta<i style="font-size: 20px; color: blue;">™</i></a>
+        <div id="cart-icon">
+            <i class="ri-shopping-cart-2-line"></i>
+            <span class="cart-item-count"></span>
+        </div>
+    </header>
+    
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+        <!--<div class="cart-box">
+                <img src="Items_img/TAYLOR.jpg" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-title">Casual Black Polo</h2>
+                    <span class="cart-price">$100</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="ri-delete-bin-5-line cart-remove"></i>
+            </div>-->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="ri-close-fill" id="cart-close"></i>
+    </div>
+
+    <section class="shop">
+        <h1 class="section-title">Shop Products</h1>
+        <div class="product-content">
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/TAYLOR.jpg" alt="">
+                </div>
+                <h2 class="product-title">TAYLOR | 414CE</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱150,000.00</span>
+                    <del class="original-price">₱18,000.00</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/TELE.jpg" alt="">
+                </div>
+                <h2 class="product-title">FENDER | TELECASTER</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱40,000.00</span>
+                    <del class="original-price">₱62,955.00</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/GL.jpg" alt="">
+                </div>
+                <h2 class="product-title">GIBSON | LES PAUL</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱150,200.00</span>
+                    <del class="original-price">₱166,230.11</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/FS.jpg" alt="">
+                </div>
+                <h2 class="product-title">FENDER | STRATOCASTER</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱32,999.00</span>
+                    <del class="original-price">₱44,995.00</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/PEAVEY.jpg" alt="">
+                </div>
+                <h2 class="product-title">PEAVEY | JF-1</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱18,000.00</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/PRSM.jpeg" alt="">
+                </div>
+                <h2 class="product-title">PRS | SE MCCARTY 594</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱50,000.00</span>
+                    <del class="original-price">₱62,950.00</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/IBJ.png" alt="">
+                </div>
+                <h2 class="product-title">IBANEZ | J-CRAFT CUSTOM RG8470Z</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱135,000.00</span>
+                    <del class="original-price">₱155,702.40</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/Fermata.jpg" alt="">
+                </div>
+                <h2 class="product-title">FERMATA | SC-24 CARBON FIBER PICKGUARD</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱15,200.00</span>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="img-box">
+                    <img src="Items_img/Ep.jpg" alt="">
+                </div>
+                <h2 class="product-title">EPIPHONE | SG SPECIAL VE SATIN E1</h2>
+                <div class="price-and-cart">
+                    <span class="price">₱10,000.00</span>
+                    <del class="original-price">₱12,995.00</del>
+                    <i class="ri-shopping-cart-2-line add-cart"></i>
+                </div>
+            </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
